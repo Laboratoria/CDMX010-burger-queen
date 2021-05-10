@@ -1,13 +1,17 @@
 import React from 'react'
+// import Dishes from './dishes/dishes'
+import WaiterOrder from './waiterOrder'
 
 const Menu = () =>{
     return (
         <div>
             <div className='breakfast'>
-                <h1>Desayunos</h1>
+                <h1>DESAYUNOS</h1>
+                <WaiterOrder/>
             </div>
             <div className='dinner'>
-                <h1>Almuerzo y Cena</h1>
+                <h1>ALMUERZO Y CENA</h1>
+                {/* <Dishes/> */}
             </div>
         </div>
     )

@@ -1,14 +1,22 @@
 import React from "react";
-import './firebase'
+import './firebase';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Dishes from './components/dishes'
+import Menu from './components/menu'
+import Select from './components/select'
+import './App.css';
+import Order from "./components/order/order";
 
 
 function App() {
   return (
     <div>
-      <h1>Hola mundo</h1>
-      <Dishes/>
+      <div>
+        <Select/>
+        <Menu/>
+      </div>
+      <div>
+        <Order/>
+      </div>
     </div>
   );
 }

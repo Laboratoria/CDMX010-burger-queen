@@ -1,0 +1,9 @@
+button{
+    margin: 15px;
+}
+
+.btn-container{
+    display: flex;
+    /* width: 800px; */
+    flex-wrap: wrap;
+}
